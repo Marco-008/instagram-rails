@@ -3,7 +3,9 @@ source "https://rubygems.org"
 ruby "3.1.2"
 
 gem "bootsnap", require: false
+
 gem "cssbundling-rails"
+gem "devise"
 gem "jsbundling-rails"
 gem "pg", "~> 1.1"
 gem "puma", ">= 5.0"
@@ -14,6 +16,7 @@ gem "sprockets-rails"
 gem "stimulus-rails"
 gem "turbo-rails", '~> 1.0.0'
 gem "tzinfo-data", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]
+gem "bootstrap", '~> 5.0'
 
 
 
